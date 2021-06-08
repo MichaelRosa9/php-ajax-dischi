@@ -6,30 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="styles/style.css">
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
   <title>Dischi</title>
 </head>
 <body>
-  <header>
-    <img class="logo" src="" alt="">
-
-  </header>
-
-  <main>
-    <div class="container flex-center-between wrap">
-      
-        <div class="padding-20 basis-5">
-          <div class="card text-center padding-20">
-            <img class="cover" src="" alt="">
-            <h3 class="title"> </h3>
-            <h4 class="year"></h4>
+  <div id="app">
+    <header>
+      <img class="logo" src="" alt="">
+  
+    </header>
+  
+    <main>
+      <div class="container flex-center-between wrap">
+        
+          <div v-for="record in records" class="padding-20 basis-5">
+            <div class="card text-center padding-20">
+              <img class="cover" :src="record.poster" alt="">
+              <h3 class="title">{{ record['title'] }}</h3>
+              <h4 class="year">{{ record.year }}</h4>
+            </div>
+  
           </div>
-
-        </div>
-
-
-    </div>
-  </main>
+  
+  
+      </div>
+    </main>
+  </div>
+  <script src="js/vue.js"></script>
 </body>
 </html>
