@@ -50,7 +50,7 @@ main {
 
 .card {
   background-color: #27333D;
-  height: 400px;
+  height: 450px;
 }
 
 .padding-20 {
@@ -64,10 +64,12 @@ main {
 .title {
   color: white;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 .year {
   color: grey;
   font-weight: 300;
   font-size: 18px;
+  margin-top: 20px;
 }
