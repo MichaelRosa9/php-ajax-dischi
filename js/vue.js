@@ -7,7 +7,7 @@ var app = new Vue({
 
     axios.get('http://localhost:8888/php-intro/php-ajax-dischi/api.php')
     .then((response) => {
-      this.records = response;
+      this.records = response.data;
       console.log(this.records);
     })
     .catch( (error) => {

@@ -37,16 +37,16 @@
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
         ],
         [
-            'title' => "Made in Japan",
+            'title' => 'Made in Japan',
             'author' => 'Deep Purple',
             'year' => 1972,
-            'poster' => 	"https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg"
+            'poster' => 	'https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg'
         ],
         [
-            'title' => "Justice for All",
+            'title' => 'Justice for All',
             'author' => 'Metallica',
             'year' => 1988,
-            'poster' => 	"https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg"
+            'poster' => 	'https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg'
         ],
         [
             'title' => 'Hard Wired',
